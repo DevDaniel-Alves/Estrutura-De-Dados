@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.todasaslistas;
+package atividadecollections;
 
 import java.util.ArrayList;
 
 public class ListaLigadaDinamicaPessoa {
-
     private ArrayList<Pessoa> listaPessoas;
     private String nomeDaLista;
 

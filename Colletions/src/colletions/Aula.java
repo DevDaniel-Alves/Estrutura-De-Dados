@@ -21,8 +21,15 @@ public class Aula {
     public int getTempo() {
         return tempo;
     }
-     @Override
+
+    @Override
     public String toString() {
         return "[Aula: " + this.titulo + ", " + this.tempo + " minutos]";
     }
+
+    @Override
+    public int compareTo(Aula outraAula) {
+        return this.titulo.compareTo(outraAula.titulo);
+    }
 }
+

@@ -1,19 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.todasaslistas;
+package atividadecollections;
 
-/**
- *
- * @author 2084007
- */
-public class TestaListaPessoa {
+public class AtividadeCollections {
+
     public static void main(String[] args) {
         ListaLigadaDinamicaPessoa lista = new ListaLigadaDinamicaPessoa("Lista Teste");
 
         // Criando algumas pessoas para teste
-        Pessoa pessoa1 = new Pessoa("João", 25, 70, 1.75);
+        Pessoa pessoa1 = new Pessoa("Joao", 25, 70, 1.75);
         Pessoa pessoa2 = new Pessoa("Maria", 30, 65, 1.60);
         Pessoa pessoa3 = new Pessoa("Pedro", 20, 80, 1.80);
 
@@ -25,9 +18,9 @@ public class TestaListaPessoa {
         // Testando os métodos atualizados
         System.out.println("Lista vazia? " + lista.Vazia());
         System.out.println(lista.EscreveLista());
-        System.out.println("Média de idade: " + lista.mediaIdade());
-        System.out.println("Média de peso: " + lista.mediaPeso());
-        System.out.println("Média de altura: " + lista.mediaAltura());
+        System.out.println("Media de idade: " + lista.mediaIdade());
+        System.out.println("Media de peso: " + lista.mediaPeso());
+        System.out.println("Media de altura: " + lista.mediaAltura());
         System.out.println("Pessoas acima do peso:");
         Pessoa[] acimaDoPeso = lista.acimaDoPeso();
         for (Pessoa pessoa : acimaDoPeso) {
@@ -55,6 +48,5 @@ public class TestaListaPessoa {
 
         System.out.println(lista.EscreveLista());
     }
-        
-    }
+}
     
